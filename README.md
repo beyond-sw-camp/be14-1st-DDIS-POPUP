@@ -20,12 +20,13 @@
 1. [개요](#Project-Overview)    
 2. [주요기능](#Main-Functionalities)
 3. [WBS](#WBS)
-4. [모델링](#DB-Modeling)
-5. [요구사항명세서](#Software-Requirement-Specification)
-6. [테스트케이스](#Test-Case)
-7. [기술 스택](#Tech-Stack)  
-8. [라이센스](#License)
-9. [동료 평가](#Team-Assessments)
+4. [서버구축](#server-development)
+5. [모델링](#DB-Modeling)
+6. [요구사항명세서](#Software-Requirement-Specification)
+7. [테스트케이스](#Test-Case)
+8. [기술 스택](#Tech-Stack)  
+9. [라이센스](#License)
+10. [동료 평가](#Team-Assessments)
 
 
 ## Project Overview
@@ -123,6 +124,9 @@ POPUP STORE는 짧은 시간 동안 효과적인 마케팅을 위해 운영되�
 ![WBS](./images/WBS.jpg)  
 
 ---  
+
+## Sever Development
+
 
 ## DB Modeling
 ### 1️⃣ Flowchart
