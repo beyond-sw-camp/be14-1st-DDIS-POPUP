@@ -191,7 +191,7 @@ Replication이란 DB를 복제하는 것으로 2대 이상의 DBMS를 master와 
 ## Test Case
 - [**테스트케이스**](https://docs.google.com/spreadsheets/d/1horLzfjah3TyV4bXiBRzJA1DVeNDPiJfk2p_B6-7Hzg/edit?usp=sharing)  
 
-![테스트케이스](./images/다다익성_테스트케이스.png)
+![테스트케이스](./images/다다익성_테스트케이스2.png)
 
 
 ### User Management
