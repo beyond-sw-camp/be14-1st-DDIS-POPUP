@@ -140,8 +140,6 @@ POPUP STORE는 짧은 시간 동안 효과적인 마케팅을 위해 운영되�
 
 ---
 
-## Replication
-
 ## Software Requirement Specification
 - [**요구사항명세서**](https://docs.google.com/spreadsheets/d/1Mmpfjvvy2EqmD_xztQCP8p7X98NCN32QOAH2ceaW76E/edit?usp=sharing)
   
@@ -151,6 +149,8 @@ POPUP STORE는 짧은 시간 동안 효과적인 마케팅을 위해 운영되�
 - [**테스트케이스**](https://docs.google.com/spreadsheets/d/1horLzfjah3TyV4bXiBRzJA1DVeNDPiJfk2p_B6-7Hzg/edit?usp=sharing)  
 
 ![테스트케이스](./images/다다익성_테스트케이스.png)
+
+## Replication
 
 ### User Management
 <details>
