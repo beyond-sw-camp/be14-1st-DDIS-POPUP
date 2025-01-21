@@ -126,7 +126,43 @@ POPUP STORE는 짧은 시간 동안 효과적인 마케팅을 위해 운영되�
 ---  
 
 ## Sever Development
+### 리플리케이션(Replication)
+<img src="./images/리플리케이션(Replication).png">
 
+MySQL과 MariaDB는 Replication을 지원합니다.
+
+Replication이란 DB를 복제하는 것으로 2대 이상의 DBMS를 master와 slave(또는 다중slave)구조로 나누어 비동기 복제 방식으로 데이터를 저장하는 것입니다.
+
+이를 통해, **DB 서버의 부하를 분산**시키고 **데이터 백업이 실시간**으로 이루어질 수 있도록 돕습니다.
+
+---
+
+- **master 서버**
+: 데이터 변경에 대한 처리를 담당하며 변경 발생 시 binary log에 기록하고 slave 서버로 전달합니다.
+- **slave 서버**
+: master 서버로부터 전달 받은 binary log를 통해 DB에 반영하고 조회의 부담을 담당한다.
+
+---
+
+#### master 서버 연동
+<img src="./images/master.png">
+
+#### slave 서버 연동
+<img src="./images/slave.png">
+
+#### master-slave 연동
+<img src="./images/연동 확인.png">
+
+#### master 서버 데이터베이스 생성
+<img src="./images/master 서버에서 데이터베이스 생성.png">
+
+#### slave 서버 동기화
+<img src="./images/slave서버 동기화.png">
+
+#### slave 서버 read only 옵션으로 인한 오류 발생 확인
+<img src="./images/read only옵션으로 인한 오류 발생.png">
+
+---
 
 ## DB Modeling
 ### 1️⃣ Flowchart
